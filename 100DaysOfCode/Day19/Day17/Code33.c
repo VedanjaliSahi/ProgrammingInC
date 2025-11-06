@@ -11,8 +11,6 @@ int main() {
 
     original = n;
 
-    // Count number of digits
-
     int temp = n;
     while (temp > 0) {
         temp = temp / 10;
@@ -35,3 +33,4 @@ int main() {
     return 0;
 
 }
+
